@@ -1,5 +1,5 @@
 /************************************************************************/
-/* 输入某二叉树的前序遍历和中序遍历的结果，请重建出该二叉树                                                                     */
+/* 输入某二叉树的前序遍历和中序遍历的结果，请重建出该二叉树             */
 /************************************************************************/
 
 #include <iostream>
@@ -8,7 +8,7 @@ using namespace std;
 
 struct BinaryTreeNode
 {
-	int				m_nValue;
+	int		m_nValue;
 	BinaryTreeNode* m_pLeft;
 	BinaryTreeNode* m_pRight;
 };
