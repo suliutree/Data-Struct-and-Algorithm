@@ -60,7 +60,7 @@ void Postorder(BinaryTreeNode* pRoot)
 	cout << pRoot->m_nValue << " ";
 }
 
-void Preorder1(BinaryTreeNode* pRoot)
+void PreorderIteration(BinaryTreeNode* pRoot)
 {
 	stack<BinaryTreeNode*> stack;
 	BinaryTreeNode* p = pRoot; // 遍历指针
@@ -77,7 +77,7 @@ void Preorder1(BinaryTreeNode* pRoot)
 	}
 }
 
-void Inorder1(BinaryTreeNode* pRoot)
+void InorderIteration(BinaryTreeNode* pRoot)
 {
 	stack<BinaryTreeNode*> stack;
 	BinaryTreeNode* p = pRoot;
@@ -94,7 +94,7 @@ void Inorder1(BinaryTreeNode* pRoot)
 	}
 }
 
-void Postorder1(BinaryTreeNode* pRoot)
+void PostorderIteration(BinaryTreeNode* pRoot)
 {
 	stack<BinaryTreeNode*> stack;
 	BinaryTreeNode* p = pRoot;
@@ -233,22 +233,22 @@ int main()
 	cout << "preorder :" << endl;
 	Preorder(pRoot);
 	cout << endl;
-	cout << "preorder1 :" << endl;
-	Preorder1(pRoot);
+	cout << "preorderIteration :" << endl;
+	PreorderIteration(pRoot);
 	cout << endl;
 
 	cout << "inorder :" << endl;
 	Inorder(pRoot);
 	cout << endl;
-	cout << "inorder1 :" << endl;
-	Inorder1(pRoot);
+	cout << "inorderIteration :" << endl;
+	InorderIteration(pRoot);
 	cout << endl;
 
 	cout << "postorder :" << endl;
 	Postorder(pRoot);
 	cout << endl;
-	cout << "postorder1 :" << endl;
-	Postorder1(pRoot);
+	cout << "postorderIteration :" << endl;
+	PostorderIteration(pRoot);
 	cout << endl;
 
 	cout << "levelorder :" << endl;
