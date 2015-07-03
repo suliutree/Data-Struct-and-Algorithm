@@ -22,6 +22,20 @@
 
 ● 链表List相关部分算法
 
+    ○ List.cpp
+        AddToTail() 向链表末尾添加一个尾结点
+        
+        RemoveNode() 删除指定的结点
+        
+        PrintList() 打印List
+        
+        PrintListReverseIterative() 从尾到头打印链表（迭代）
+        
+        PrintListReverseRecursive() 从尾到头打印链表（递归）
+        
+        ReverseList() 反转链表
+        
+
 ● 树tree相关部分算法
 
     ○ Tree.cpp
@@ -52,6 +66,7 @@
     ○ ConstructTree.cpp
         输入某二叉树的前序遍历和中序遍历的结果，重建出该二叉树
         
+        
 ● 栈Stack和队列Queue相关部分算法
 
     ○ StackWithMax.cpp
@@ -65,6 +80,7 @@
         
     ○ SortStack.cpp
         利用两个栈实现数据的顺序输出
+        
 
 ● 查找和排序算法
 
