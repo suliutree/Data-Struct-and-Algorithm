@@ -49,8 +49,7 @@
         
         GetMaximumDistance() 计算二叉树的最大距离（最大宽度）
         
-   。ConstructTree.cpp
-   
+    。ConstructTree.cpp
         输入某二叉树的前序遍历和中序遍历的结果，重建出该二叉树
         
 ● 栈Stack和队列Queue相关部分算法
