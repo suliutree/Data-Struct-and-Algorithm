@@ -24,7 +24,7 @@
 
 ● 树tree相关部分算法
 
-    。Tree.cpp
+    ○ Tree.cpp
         CreateTree() 通过输入创建树
         
         Preorder() 前序遍历
@@ -49,19 +49,34 @@
         
         GetMaximumDistance() 计算二叉树的最大距离（最大宽度）
         
-    。ConstructTree.cpp
+    ○ ConstructTree.cpp
         输入某二叉树的前序遍历和中序遍历的结果，重建出该二叉树
         
 ● 栈Stack和队列Queue相关部分算法
 
+    ○ StackWithMax.cpp
+        定义栈的数据结构，在改类型中实现了一个能够得到栈的最大元素的getMax() 函数
+        
+    ○ TwoStackImplementQueue.cpp
+        用两个栈实现一个队列
+        enqueue() 在队列尾部插入结点
+        
+        dequeue() 在队列头部删除结点
+        
+    ○ SortStack.cpp
+        利用两个栈实现数据的顺序输出
+
 ● 查找和排序算法
 
-    。MergeSort.cpp
+    ○ MergeSort.cpp
         归并排序
-    。QuickSort.cpp
+        
+    ○ QuickSort.cpp
         快速排序
-    。QuickSelect.cpp
+        
+    ○ QuickSelect.cpp
          快速选择算法：在O(n)的时间内从一个无序数组中返回第K大的元素
+         
     
 ● 位运算相关算法
 
