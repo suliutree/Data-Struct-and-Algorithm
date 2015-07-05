@@ -29,6 +29,10 @@
         
     ○ FindGreatestSumOfSubArray.cpp
         连续子数组的最大和（整数数组，有整数也有负数）
+        
+    ○ FirstNotRepeatingChar.cpp
+        在字符串中找出第一个只出现一次的字符
+        
     
 ● 字符串相关部分算法
 
