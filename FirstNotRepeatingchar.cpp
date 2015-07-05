@@ -2,7 +2,7 @@
 
 using namespace std;
 
-char FindNotRepeatingChar(char* pStr)
+char FirstNotRepeatingChar(char* pStr)
 {
 	if (pStr == NULL)
 		return '\0';
@@ -33,15 +33,15 @@ char FindNotRepeatingChar(char* pStr)
 int main()
 {
 	char* pStr1 = "abcdaabcgh";
-	char result = FindNotRepeatingChar(pStr1);
+	char result = FirstNotRepeatingChar(pStr1);
 	cout << result << endl;
 
 	char* pStr2 = "abcdabcd";
-	result = FindNotRepeatingChar(pStr2);
+	result = FirstNotRepeatingChar(pStr2);
 	cout << result << endl;
 
 	char* pStr3 = "";
-	result = FindNotRepeatingChar(pStr3);
+	result = FirstNotRepeatingChar(pStr3);
 	cout << result << endl;
 
 	system("pause");
