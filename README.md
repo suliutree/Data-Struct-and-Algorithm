@@ -23,6 +23,12 @@
     ○ FindSortedMatrix.cpp
         二维数组，每行从左到右递增，每列从上到下递增
         输入这样的一个二维数组和整数，判断数组中是否含有该整数
+        
+    ○ ReorderOddEven.cpp
+        调整数组顺序，使奇数位于偶数前面
+        
+    ○ FindGreatestSumOfSubArray.cpp
+        连续子数组的最大和（整数数组，有整数也有负数）
     
 ● 字符串相关部分算法
 
