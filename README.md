@@ -33,6 +33,9 @@
     ○ FirstNotRepeatingChar.cpp
         在字符串中找出第一个只出现一次的字符
         
+    ○ InversePairs.cpp
+        数组中的逆序对
+        
     
 ● 字符串相关部分算法
 
