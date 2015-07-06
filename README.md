@@ -39,6 +39,13 @@
     
 ● 字符串相关部分算法
 
+    ○ ReplaceBlank.cpp
+        把字符串的每个空格替换成"%20"，此实现是在原串上直接替换
+        
+    ○ Permutation.cpp
+        字符串的全排列
+        
+
 ● 链表List相关部分算法
 
     ○ List.cpp
