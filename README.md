@@ -45,6 +45,9 @@
     ○ Permutation.cpp
         字符串的全排列
         
+    ○ KMPSearch.cpp
+        KMP算法的实现
+        
 
 ● 链表List相关部分算法
 
