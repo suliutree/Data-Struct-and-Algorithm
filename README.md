@@ -48,6 +48,8 @@
     ○ KMPSearch.cpp
         KMP算法的实现
         
+    ○ StrToInt.cpp
+        将字符串转化为整数
 
 ● 链表List相关部分算法
 
@@ -137,4 +139,7 @@
         
     ○ FindNumberAppearOnce.cpp
         一个整型数组里除了两个数字之外，其他的数字都出现了两次，找出这两个数字
+        
+    ○ AddTwoNum.cpp
+        不用加减乘除四则运算符号计算两个整数的和
 
