@@ -35,8 +35,14 @@
         
     ○ InversePairs.cpp
         数组中的逆序对
+      
+    ○ ReverseSentence.cpp
+        翻转句子
         
-    
+    ○ LeftRotateString.cpp
+        左旋字符串
+        
+        
 ● 字符串相关部分算法
 
     ○ ReplaceBlank.cpp
@@ -50,7 +56,8 @@
         
     ○ StrToInt.cpp
         将字符串转化为整数
-
+        
+        
 ● 链表List相关部分算法
 
     ○ List.cpp
