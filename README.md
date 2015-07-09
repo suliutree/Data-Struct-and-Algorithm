@@ -73,6 +73,12 @@
         
         ReverseList() 反转链表
         
+    ○ FindKthToTail.cpp
+        链表中倒数第k个结点
+        
+    ○ FindFirstCommonNode.cpp
+        两个链表的第一个公共结点
+        
 
 ● 树tree相关部分算法
 
