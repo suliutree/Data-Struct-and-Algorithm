@@ -58,6 +58,16 @@
     ○ StrToInt.cpp
         将字符串转化为整数
         
+    ○ ProcessString.cpp
+        strlen(s)：返回s的长度，不包括字符串结束符null
+        strcmp(s1, s2)：比较两个字符串s1和s2是否相同
+        strcat(s1, s2)：将字符串s2连接到s1后，并返回s1
+        strcpy(s1, s2)：将s2复制给s1，并返回s1
+        void* my_memcpy(void* dest, const void* src, size_t n)：从源src所指的内存地址的起始位置开始拷贝n个字节到目标dest
+                                                                所指的内存地址的起始位置中
+        void* my_memset(void* ptr, int value, size_t n)：将ptr中前n个字节用value替换并返回ptr
+    
+    
    
 ####● 链表List相关部分算法
 
