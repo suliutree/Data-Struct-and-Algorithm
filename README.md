@@ -96,6 +96,12 @@
     ○ FindLoop.cpp
         链表中环的入口节点
         
+    ○ LastNumberInCircle.cpp
+        圆圈中最后剩下的数字
+        
+    ○ DeleteNodeInList.cpp
+        O(1)的时间删除单链表的结点
+        
 
 ####● 树tree相关部分算法
 
