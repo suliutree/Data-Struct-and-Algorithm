@@ -142,6 +142,9 @@
         
     ○ GetLastCommonParent.cpp
         树（普通树）中两个结点的最低公共祖先
+        
+    ○ tree.md
+        AVL树，红黑树，B/B+树，Trie树各自的应用场景。
     
        
 ####● 栈Stack和队列Queue相关部分算法
