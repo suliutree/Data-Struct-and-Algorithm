@@ -36,14 +36,13 @@
         
     ○ InversePairs.cpp
         数组中的逆序对
-      
-    ○ ReverseSentence.cpp
-        翻转句子
-        
-    ○ LeftRotateString.cpp
-        左旋字符串
+     
+    ○ MoreThanHalfNum.cpp
+        找出数组中出现次数超过一半的数字
+
         
         
+<br>
 ####● 字符串相关部分算法
 
     ○ ReplaceBlank.cpp
@@ -58,6 +57,12 @@
     ○ StrToInt.cpp
         将字符串转化为整数
         
+    ○ ReverseSentence.cpp
+        翻转句子
+        
+    ○ LeftRotateString.cpp
+        左旋字符串
+        
     ○ ProcessString.cpp
         strlen(s)：返回s的长度，不包括字符串结束符null
         strcmp(s1, s2)：比较两个字符串s1和s2是否相同
@@ -68,7 +73,7 @@
         void* my_memset(void* ptr, int value, size_t n)：将ptr中前n个字节用value替换并返回ptr
     
     
-   
+<br>   
 ####● 链表List相关部分算法
 
     ○ List.cpp
@@ -102,7 +107,7 @@
     ○ DeleteNodeInList.cpp
         O(1)的时间删除单链表的结点
         
-
+<br>
 ####● 树tree相关部分算法
 
     ○ Tree.cpp
@@ -146,7 +151,7 @@
     ○ tree.md
         AVL树，红黑树，B/B+树，Trie树各自的应用场景。
     
-       
+<br>       
 ####● 栈Stack和队列Queue相关部分算法
 
     ○ StackWithMax.cpp
@@ -162,6 +167,7 @@
         利用两个栈实现数据的顺序输出
         
 
+<br>
 ####● 查找和排序算法
 
     ○ MergeSort.cpp
@@ -174,7 +180,7 @@
          快速选择算法：在O(n)的时间内从一个无序数组中返回第K大的元素
        
          
-   
+<br>  
 ####● 位运算相关算法
 
     ○ NumberOf1.cpp
@@ -187,6 +193,7 @@
         不用加减乘除四则运算符号计算两个整数的和
 
 
+<br>
 ####● hash表相关算法
 
     ○ IsUnique.cpp
