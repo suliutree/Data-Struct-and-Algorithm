@@ -191,6 +191,9 @@
         
     ○ AddTwoNum.cpp
         不用加减乘除四则运算符号计算两个整数的和
+        
+    ○ ReverseBits.cpp
+        对一个32位的无符号整数反转二进制
 
 
 <br>
