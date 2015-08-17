@@ -72,6 +72,15 @@
         void* my_memcpy(void* dest, const void* src, size_t n)：从源src所指的内存地址的起始位置开始拷贝n个字节到目标dest
                                                                 所指的内存地址的起始位置中
         void* my_memset(void* ptr, int value, size_t n)：将ptr中前n个字节用value替换并返回ptr
+        
+    ○ StringFilter.cpp
+        若字符串中出现多个相同的字符，将非首次出现的字符过滤掉
+        
+    ○ AddToLargeNum.cpp
+        大数相加，目前只支持两个数同为正数或同为负数
+        
+    ○ DelSubStr.cpp
+        删除字符串中所有给定的子串
     
     
 <br>   
