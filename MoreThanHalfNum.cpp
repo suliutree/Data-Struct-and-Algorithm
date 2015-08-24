@@ -105,7 +105,6 @@ int MoreThanHalfNum2(int array[], int length)
 		}
 		else
 		{
-			result = array[i];
 			time--;
 		}
 	}
