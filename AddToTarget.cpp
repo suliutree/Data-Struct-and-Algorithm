@@ -24,6 +24,8 @@ vector<int> AddsToTarget(vector<int> &numbers, int target)
 		}
 		numToIndex[*it] = (int)(it - numbers.begin());
 	}
+
+	return vi;
 }
 
 int main()
