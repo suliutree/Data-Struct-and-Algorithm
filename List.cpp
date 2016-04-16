@@ -128,18 +128,17 @@ ListNode* ReverseList(ListNode* pHead)
 int main()
 {
 	ListNode* list = NULL;
-	ListNode** pList = &list;
 	int value[] = {23, 24, 14, 35, 9, 10, 29, 15};
 	for (int i = 0; i < sizeof(value) / sizeof(value[0]); ++i) 
 	{
-		AddToTail(pList, value[i]);
+		AddToTail(&list, value[i]);
 	}
 	
 	cout << "PrintList:" << endl;
 	PrintList(list);
 	cout << endl;
 
-	RemoveNode(pList, value[2]);
+	RemoveNode(&list, value[2]);
 
 	cout << "PrintList:" << endl;
 	PrintList(list);
