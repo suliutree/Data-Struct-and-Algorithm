@@ -20,7 +20,7 @@ int FindGreatestSumOfSubArray(int pData[], int length)
 	g_InvalidInput = false;
 
 	int nCurSum = 0;
-	int nGreastSum = 0;
+	int nGreastSum = pData[0];
 
 	for (int i = 0; i < length; ++i)
 	{
