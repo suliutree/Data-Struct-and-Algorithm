@@ -4,6 +4,13 @@ using namespace std;
 
 bool g_bInputInvalid = false;
 
+void swap(int* a, int* b)
+{
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
 int Partition(int array[], int left, int right)
 {
 	int pivot = array[right];
@@ -13,16 +20,15 @@ int Partition(int array[], int left, int right)
 		while (array[left] < pivot && left < right)
 			++left;
 		if (left < right)
-			swap(array[left], array[right--]);
+			swap(&array[left], &array[right--]);
 
 		while (array[right] > pivot && left < right)
 			--right;
 		if (left < right)
-			swap(array[left++], array[right]);
+			swap(&array[left++], &array[right]);
 	}
 
 	return left;
-
 }
 
 bool CheckMoreThanHalf(int array[], int length, int result)
